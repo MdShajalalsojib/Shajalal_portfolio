@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className=" flex  items-center shadow-current justify-center p-3">
+    <nav className=" flex  items-center bg-gray-400 shadow-2xl  justify-center p-3 shadow-cyan-800">
       {/* Logo */}
-      <div className="flex justify-between gap-60 items-center">
+      <div className="flex justify-between gap-60 items-center ">
         <a href="#home" className="group relative">
           <span className="text-2xl font-extrabold font-mono">
             <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
@@ -18,7 +18,7 @@ const Navbar = () => {
 
         {/* Menu */}
         <ul className="hidden md:flex gap-6 text-gray-700 font-medium">
-          <NavLink to="/" className="hover:text-blue-600 ">
+          <NavLink to="/" className="hover:text-blue-600  ">
             Home
           </NavLink>
           <NavLink to="/about" className="hover:text-blue-600">
@@ -26,6 +26,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/education" className="hover:text-blue-600">
             Education
+            
           </NavLink>
           <NavLink to="/experience" className="hover:text-blue-600">
             Experience
@@ -39,7 +40,7 @@ const Navbar = () => {
           <NavLink to="/projects" className="hover:text-blue-600">
             Projects
           </NavLink>
-          <NavLink to="/contact" className="hover:text-blue-600">
+          <NavLink to="/contact" className="hover:text-blue-600 ">
             Contact
           </NavLink>
         </ul>
