@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Home = () => {
   return (
     <div className="flex justify-between justify-center gap-10 ml-24 mr-24 mb-10">
@@ -73,7 +74,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+        
     </div>
+     
   );
 };
 
