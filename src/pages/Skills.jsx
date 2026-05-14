@@ -4,22 +4,20 @@ const Skills = () => {
   return (
     <div>
       <section
-        id="skills"
-        class="py-20"
-         className="background-color: var(--section-bg);"
+         className = "py-20 bg-[#071025] h-full"
       >
-        <div class="max-w-6xl mx-auto px-6 md:px-10">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        <div className="max-w-6xl mx-auto px-6 md:px-10">
+          <div  className="text-center mb-12">
+            <h2  className="text-3xl md:text-4xl font-bold mb-4">
               Tech{" "}
-              <span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              <span  className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
                 Stack
               </span>
             </h2>
-            <div class="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
+            <div  className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
             <p
-              class="mt-4 max-w-2xl mx-auto"
-               className="color: var(--color-muted);"
+               className="mt-4 max-w-2xl mx-auto "
+               
             >
               Technologies and tools I work with to build scalable, modern
               applications.
