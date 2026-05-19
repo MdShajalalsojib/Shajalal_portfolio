@@ -3,7 +3,8 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex justify-between justify-center gap-10 ml-24 mr-24 mb-10">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-20 bg-[#0b1220]">
+       <div className="flex justify-between justify-center gap-10 ml-24 mr-24 mb-10">
       <div>
         <button className="bg-gray-400 text-center rounded-full p-5 shadow-2xs shadow-cyan-200 mt-6">
           Open for opportunities
@@ -76,6 +77,7 @@ const Home = () => {
       </div>
         
     </div>
+    </section>
      
   );
 };
